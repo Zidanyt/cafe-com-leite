@@ -4,6 +4,14 @@
    --cor-de-letra: #3D0000;
    --cor-do-titulo: #C2B8A3;
 }
+
+*{
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+}
+/*menu*/
+
 body{
    background-color: var(--cor-do-titulo);  
  }
@@ -18,11 +26,40 @@ body{
     margin: 80px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
- *{
-   padding: 0px;
-   margin: 0px;
-   box-sizing: border-box;
+
+ /*Quem somos*/
+
+ .quemsomos__principal{
+   border: 2px solid var(--cor-de-fundo);
+   width: 100%;
+   margin-top: 100px;
+   padding-bottom: 220px;
+ }
+
+ .quemsomos__img{
+   position: absolute;
+   display: inline-block;
+   width: 200px;
+   top: 200px;
+   height: 250px;
+   margin: 0px 50px;
+ }
+
+.quemsomos__h1{
+   font-size: 30px;
 }
+
+ .quemsomos__titulo{
+   width: 80%;
+   margin: 20px;
+   position: relative;
+   left: 240px;
+   top: 90px;
+   padding: 8px 5px;
+   font-size: 22px;
+   font-family: 'Times New Roman', Times, serif;
+}
+ /*login*/
 
 .login{
    display: flex;
