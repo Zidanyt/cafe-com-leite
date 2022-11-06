@@ -4,3 +4,15 @@
    --cor-de-letra: #3D0000;
    --cor-do-titulo: #C2B8A3;
 }
+body{
+   background-color: #2D2424;  
+ }
+ div li{
+    text-align: center;
+    text-decoration: none;
+    display: inline; 
+    margin: 10px 10px 0 15px;
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+ }
