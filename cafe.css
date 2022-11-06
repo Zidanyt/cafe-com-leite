@@ -5,7 +5,7 @@
    --cor-do-titulo: #C2B8A3;
 }
 body{
-   background-color: #2D2424;  
+   background-color: var(--cor-do-titulo);  
  }
  div li{
     text-align: center;
