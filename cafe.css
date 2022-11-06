@@ -18,3 +18,47 @@ body{
     margin: 80px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
+ *{
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+}
+
+.login{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+   padding: clamp(35px, 8%, 70px);
+}
+
+.login__logo{
+   width: 60px;
+   margin-bottom: 1.5%;
+}
+
+.login__title{
+   font-size: 25px;
+   margin-bottom: 13px;
+}
+
+.login__label{
+   display: block;
+   margin-bottom: 10px;
+}
+
+.input{
+   width: 100%;
+   border-radius: 5px;
+   outline: none;
+   font-size: 15px;
+   font-weight: 300;
+}
+
+.login__label span{
+   position: relative;
+   font-size: 0.6em;
+   font-weight: 700;
+   text-transform: uppercase;
+   cursor: text;
+}
