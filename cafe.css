@@ -79,6 +79,13 @@ body{
    top: 12px;
    right: 10px;
 }
+
+footer{
+   text-align: center;
+   background: url("01597324fa24651.jpg");
+   padding: 40px 0;
+   font-size: 30px;
+}
  /*Quem somos*/
 
  .quemsomos__principal{
