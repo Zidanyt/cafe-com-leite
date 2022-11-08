@@ -120,6 +120,19 @@ footer{
    font-size: 22px;
    font-family: 'Times New Roman', Times, serif;
 }
+
+.login__button{
+   width: 100px;
+   height: 30px;
+}
+.login__button:hover{
+   background: var(--cor-de-fundo);
+   text-transform: uppercase;
+}
+
+.login__button:active{
+   background: var(--cor-de-letra);
+}
  /*login*/
 
 .login{
