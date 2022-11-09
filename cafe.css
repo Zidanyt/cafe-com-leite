@@ -32,9 +32,7 @@ body{
  }
  a:hover{
    color: var(--cor-de-letra);
-
  }
- 
    
  .produtos li{
    display: inline-block;
@@ -57,6 +55,10 @@ body{
  }
  .produtos li:hover{
    border-color: #8f681b;
+ }
+ .produtos li:active{
+   background-color: #8f681b;
+   text-transform: capitalize;
  }
  .imag4{
    width:60px;
@@ -88,11 +90,25 @@ footer{
    text-shadow: 2px 2px 3px white;
    text-transform: capitalize;
 }
+.imag8{
+   position: relative;
+   width:200px ;
+   height: 160px;
+   top:40px ;
+   left:70px ;
+}
+.div-class{
+   border:3px solid black ;
+   padding-bottom: 52px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 2px #000;
+}
  /*Quem somos*/
 #contato{
    margin: 20px 30px 20px 30px;
-   border-radius: 50px;
-   border: 2px solid  var(--cor-de-letra);
+   border-radius: 10px;
+   border: 5px solid  var(--cor-de-letra);
+   box-shadow: 3px 3px 3px black;
 }
 
 .contato__principal{
@@ -127,6 +143,9 @@ footer{
 
  .quemsomos__principal{
    border: 2px solid var(--cor-de-fundo);
+   border-radius: 10px;
+   border: 5px solid  var(--cor-de-letra);
+   box-shadow: 3px 3px 3px black;
    width: 100%;
    margin-top: 100px;
    padding-bottom: 220px;
@@ -137,7 +156,7 @@ footer{
    position: absolute;
    display: inline-block;
    width: 200px;
-   top: 200px;
+   top: 60%;
    height: 250px;
    margin: 0px 50px;
    border-radius: 5px;
