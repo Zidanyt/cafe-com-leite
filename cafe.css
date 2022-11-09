@@ -89,6 +89,41 @@ footer{
    text-transform: capitalize;
 }
  /*Quem somos*/
+#contato{
+   margin: 20px 30px 20px 30px;
+   border-radius: 50px;
+   border: 2px solid  var(--cor-de-letra);
+}
+
+.contato__principal{
+   display: inline;
+   font-weight: bolder;
+   font-size: 2em;
+   color: var(--cor-de-fundo);
+   padding-top: 20px;
+   margin: clamp(0px, 50%, 595px);
+}
+
+.contato__secundario{
+   display: block;
+   font-size: 1.5em;
+   padding: 5px 0 15px 50px ;
+}
+
+.contato__img1{
+   width: 30px;
+   position: relative;
+   left: 550px;
+   top: 38px;
+}
+
+.contato__img{
+   width: 20px;
+   position: relative;
+   left: 20px;
+   top: 33px;
+}
+ /*CONTATO*/
 
  .quemsomos__principal{
    border: 2px solid var(--cor-de-fundo);
